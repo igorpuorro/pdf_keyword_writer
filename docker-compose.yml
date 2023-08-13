@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+    pdf-keyword-writer:
+        ports:
+            - "2222:22"
+        volumes:
+            - "./:/root/pdf_keyword_writer"
+        image: "pdf-keyword-writer"
