@@ -2,7 +2,9 @@ pdf_keyword_writer/conf/*
 !pdf_keyword_writer/conf/sample_keywords.yaml
 
 pdf_keyword_writer/modified/*
+!pdf_keyword_writer/modified/.gitkeep
 
 pdf_keyword_writer/original/*
+!pdf_keyword_writer/original/.gitkeep
 
 ssh/
