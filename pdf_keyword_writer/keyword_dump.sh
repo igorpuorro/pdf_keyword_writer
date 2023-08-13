@@ -16,7 +16,7 @@ fi
 
 # Run the Python command and extract the desired information
 /usr/bin/env python3 ./pdf_text_extractor.py "$pdf_file" -l 1000 | \
-    grep '^[a-z]\+' | \
+    grep '^[A-Za-z]\+' | \
     sed -E 's/\.([^\.]*|$)/\n\1/g' | \
     sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | \
     grep -v '^$' | \
