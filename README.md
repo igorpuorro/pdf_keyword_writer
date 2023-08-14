@@ -1,6 +1,6 @@
 # pdf_keyword_writer
 
-A simple tool to write keywords to PDF files.
+The eyes can't see it but an algorithm does.
 
 ## Installing
 
